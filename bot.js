@@ -1,3 +1,4 @@
+const client = new Discord.Client();
 
 const RichEmbed = require("discord.js");
 
