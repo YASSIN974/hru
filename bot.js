@@ -1,4 +1,5 @@
-const client = new Discord.Client();
+const Discord = require("discord.js");
+const mar = new Discord.Client();
 
 const RichEmbed = require("discord.js");
 
@@ -39,7 +40,7 @@ msg.delete();
 });
 
 
-const devs = ["489794513204805632","332713449215754242"]
+const devs = ["332713449215754242"]
 
 const adminprefix = "*";
 client.on('message', message => {
